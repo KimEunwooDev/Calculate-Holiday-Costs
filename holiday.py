@@ -55,7 +55,7 @@ print(f"Your total rental cost is ￡{car_rental(rental_days)}") #Print out the 
    
 
 
-#Function to calculate a user's total holiday cost
+#Function to calculate a user's total holiday cost.
 def holiday_cost(hotel_cost,flight_cost,car_rental) :
     total_holiday_cost = hotel_cost+flight_cost+car_rental
     return total_holiday_cost
